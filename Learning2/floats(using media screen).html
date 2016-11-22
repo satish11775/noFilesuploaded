@@ -1,0 +1,64 @@
+<!doctype html>
+<head>
+  <title>Responsive Web Pages
+</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<style>
+#p1{
+  background-color: red;
+  margin: 10px;
+  width: 1080px;
+}
+#p2{
+  background-color: green;
+  float:left;
+  width:50%;
+}
+#p3{
+background-color: blue;
+float:left;
+width:50%;
+}
+@media screen and (max-width:720px) {
+  #p2,#p3{
+    width:auto;
+  }
+}
+@media screen and (max-width:480px) {
+  #p2,#p3{
+    width:auto;
+  }
+}
+  @media screen and (max-width:360px) {
+    #p2,#p3{
+      width:auto;
+    }
+}
+</style>
+</head>
+<body>
+<div id="p1">
+<p>
+<h1>The Responsive pages</h1>
+</p>
+
+<div id="p2">
+<p>
+  <h2>Samsung Galaxy Note 7</h2>
+  </br>
+  <img src="note.jpg">
+</p>
+</div>
+<div id="p3">
+  <h2>The description</h2>
+ <h3>Specs</h3>
+ <ul>
+    <li>Ram:4gb</li>
+    <li>Memory:32gb</li>
+    <li>Expandable:128gb</li>
+    <li>OnCharging:Dynamite</li>
+ </ul>
+</div>
+</div>
+</body>
