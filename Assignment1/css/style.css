@@ -1,0 +1,72 @@
+.container_12{
+  background-color: white;
+}
+header{
+
+  border-bottom: 5px;
+  border-style: double;
+  border-color: gainsboro;
+  margin-bottom: 20px;
+}
+nav li{
+  display: inline;
+  margin-top: 30px;
+  float:right;
+}
+nav a{
+text-decoration: none;
+}
+.para p{
+  margin-top: 140px;
+  font-family: cursive;
+  background-color: yellowgreen;
+  clear: both;
+  margin-bottom: 30px;
+}
+footer{
+  background-color: lightgrey;
+
+}
+h6{
+  font-size: 14px;
+  font-style: italic;
+}
+.f2 li{
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.fixing{
+position: fixed;
+text-align:center;
+background-color: white;
+
+}
+.f3 li{
+  padding-bottom: 10px;
+}
+.f3 a{
+  text-decoration: none;
+}
+.f2 a{
+  text-decoration: none;
+}
+@media screen and (max-width:720px) {
+  .fixing,.col,.foot{
+    width:auto;
+  }
+}
+@media screen and (max-width:480px) {
+  .fixing,.col,.foot{
+    width:auto;
+  }
+}
+  @media screen and (max-width:360px) {
+    .fixing,.col,.foot{
+      width:auto;
+    }
+}
+@media screen and (max-width:240px) {
+  .fixing,.col,.foot{
+    width:auto;
+  }
+}
